@@ -1,0 +1,16 @@
+Facade Pattern
+
+https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
+
+Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This type of design pattern comes under structural pattern as this pattern adds an interface to existing system to hide its complexities.
+
+This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
+-----------------------------------------------------------------------------------------------------
+Chain Of Responsibility
+
+ http://gyanendushekhar.com/2016/09/05/chain-responsibility-design-pattern-c/#:~:text=Chain%20of%20responsibility%20design%20pattern%20comes%20under%20behavioral%20design%20pattern,four%20(GoF)%20design%20patterns.&text=Chain%20of%20responsibility%20design%20pattern%20decouples%20sender%20and%20receiver%20by,request%20with%20multiple%20sequential%20handlers.
+
+
+As the name suggests, the chain of responsibility pattern creates a chain of receiver objects for a request. This pattern decouples sender and receiver of a request based on type of request. This pattern comes under behavioral patterns.
+
+In this pattern, normally each receiver contains reference to another receiver. If one object cannot handle the request then it passes the same to the next receiver and so on.
